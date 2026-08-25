@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="100" cy="100" r="100" fill="url(#bgGrad)"/>
+  
+  <!-- Person avatar -->
+  <!-- Head -->
+  <circle cx="100" cy="75" r="34" fill="#FDE047"/>
+
+  <!-- Hair / Cap -->
+  <path d="M66,72 C66,45 134,45 134,72 Z" fill="#1E293B"/>
+  <!-- Plantation Helmet/Cap -->
+  <path d="M56,70 C60,40 140,40 144,70 L155,75 L45,75 Z" fill="#065F46"/>
+  <rect x="90" y="45" width="20" height="8" rx="4" fill="#F59E0B"/>
+
+  <!-- Body / Vest -->
+  <path d="M30,190 C30,135 170,135 170,190 Z" fill="#022C22"/>
+  <!-- Safety Vest stripes -->
+  <path d="M65,145 L85,190 M135,145 L115,190" stroke="#F59E0B" stroke-width="12" stroke-linecap="round"/>
+</svg>

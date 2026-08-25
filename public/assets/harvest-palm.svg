@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="fruitOrange" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="50%" stop-color="#EA580C"/>
+      <stop offset="100%" stop-color="#9A3412"/>
+    </radialGradient>
+    <radialGradient id="fruitGold" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="60%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </radialGradient>
+    <linearGradient id="stalkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#65A30D"/>
+      <stop offset="100%" stop-color="#3F6212"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" rx="32" fill="#064E3B"/>
+  
+  <!-- Outer Frond Leaf Framing -->
+  <path d="M40,360 Q100,100 360,40" stroke="#10B981" stroke-width="8" fill="none" opacity="0.3"/>
+  <path d="M40,40 Q200,200 360,360" stroke="#34D399" stroke-width="8" fill="none" opacity="0.2"/>
+
+  <!-- Fruit Bunch Stalk -->
+  <path d="M200,40 C210,100 200,180 200,260" stroke="url(#stalkGrad)" stroke-width="32" stroke-linecap="round" fill="none"/>
+  
+  <!-- Cluster of Oil Palm Fruitlets (Fresh Fruit Bunch / TBS) -->
+  <g transform="translate(40, 20)">
+    <!-- Base Layer Fruitlets -->
+    <circle cx="160" cy="180" r="28" fill="url(#fruitOrange)"/>
+    <circle cx="200" cy="170" r="30" fill="url(#fruitGold)"/>
+    <circle cx="130" cy="200" r="26" fill="url(#fruitOrange)"/>
+    <circle cx="170" cy="210" r="32" fill="url(#fruitOrange)"/>
+    <circle cx="220" cy="210" r="28" fill="url(#fruitGold)"/>
+    <circle cx="110" cy="240" r="25" fill="url(#fruitGold)"/>
+    <circle cx="150" cy="250" r="34" fill="url(#fruitOrange)"/>
+    <circle cx="190" cy="250" r="35" fill="url(#fruitGold)"/>
+    <circle cx="230" cy="240" r="27" fill="url(#fruitOrange)"/>
+    
+    <!-- Top Layer Spike Details -->
+    <circle cx="140" cy="220" r="24" fill="url(#fruitGold)"/>
+    <circle cx="180" cy="225" r="28" fill="url(#fruitOrange)"/>
+    <circle cx="210" cy="215" r="22" fill="url(#fruitOrange)"/>
+
+    <circle cx="160" cy="280" r="26" fill="url(#fruitGold)"/>
+    <circle cx="190" cy="290" r="24" fill="url(#fruitOrange)"/>
+
+    <!-- Sharp Spikes / Thorn Accents -->
+    <polygon points="160,140 165,120 170,140" fill="#78350F"/>
+    <polygon points="200,130 206,105 212,130" fill="#78350F"/>
+    <polygon points="120,170 115,150 128,168" fill="#78350F"/>
+    <polygon points="240,180 250,165 242,190" fill="#78350F"/>
+  </g>
+
+  <!-- Quality Stamp -->
+  <rect x="24" y="324" width="160" height="48" rx="14" fill="#10B981"/>
+  <text x="44" y="354" fill="#FFFFFF" font-family="sans-serif" font-weight="900" font-size="16">MATANG 100%</text>
+</svg>

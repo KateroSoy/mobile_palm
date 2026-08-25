@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#064E3B"/>
+      <stop offset="40%" stop-color="#047857"/>
+      <stop offset="80%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="hillGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#065F46"/>
+      <stop offset="100%" stop-color="#022C22"/>
+    </linearGradient>
+    <linearGradient id="hillGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#047857"/>
+      <stop offset="100%" stop-color="#064E3B"/>
+    </linearGradient>
+    <linearGradient id="palmLeaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky Background -->
+  <rect width="800" height="500" fill="url(#skyGrad)"/>
+  
+  <!-- Sun Glow -->
+  <circle cx="680" cy="100" r="140" fill="url(#sunGrad)"/>
+  
+  <!-- Distant Hills -->
+  <path d="M0,320 Q200,240 400,280 T800,220 L800,500 L0,500 Z" fill="url(#hillGrad1)" opacity="0.7"/>
+  <path d="M0,360 Q300,300 550,340 T800,310 L800,500 L0,500 Z" fill="url(#hillGrad2)" opacity="0.9"/>
+
+  <!-- Palm Tree Silhouettes & Details -->
+  <!-- Tree 1 -->
+  <g transform="translate(100, 240)">
+    <path d="M40,200 Q30,100 40,0 L50,0 Q60,100 50,200 Z" fill="#022C22"/>
+    <!-- Fronds -->
+    <path d="M45,10 M45,10 Q-30,-20 -80,20 M45,10 Q-40,-50 -60,-80 M45,10 Q10,-70 20,-100 M45,10 Q80,-60 120,-30 M45,10 Q110,-10 140,40" stroke="#10B981" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <path d="M45,10 M45,10 Q-30,-20 -80,20 M45,10 Q-40,-50 -60,-80 M45,10 Q10,-70 20,-100 M45,10 Q80,-60 120,-30 M45,10 Q110,-10 140,40" stroke="#065F46" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Tree 2 -->
+  <g transform="translate(320, 220)">
+    <path d="M40,220 Q45,110 40,0 L50,0 Q55,110 50,220 Z" fill="#022C22"/>
+    <path d="M45,10 M45,10 Q-40,-30 -90,10 M45,10 Q-50,-60 -70,-90 M45,10 Q0,-80 10,-110 M45,10 Q90,-70 130,-40 M45,10 Q120,-20 150,30" stroke="#34D399" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <path d="M45,10 M45,10 Q-40,-30 -90,10 M45,10 Q-50,-60 -70,-90 M45,10 Q0,-80 10,-110 M45,10 Q90,-70 130,-40 M45,10 Q120,-20 150,30" stroke="#047857" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Tree 3 foreground right -->
+  <g transform="translate(600, 200)">
+    <path d="M40,250 Q20,120 40,0 L52,0 Q32,120 52,250 Z" fill="#022C22"/>
+    <path d="M46,10 M46,10 Q-50,-40 -110,0 M46,10 Q-60,-70 -90,-100 M46,10 Q-10,-90 0,-120 M46,10 Q100,-80 150,-40 M46,10 Q130,-30 170,20" stroke="#10B981" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <path d="M46,10 M46,10 Q-50,-40 -110,0 M46,10 Q-60,-70 -90,-100 M46,10 Q-10,-90 0,-120 M46,10 Q100,-80 150,-40 M46,10 Q130,-30 170,20" stroke="#064E3B" stroke-width="5" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Grid overlay lines (Tech Plantation look) -->
+  <path d="M0,450 Q400,430 800,450 M0,410 Q400,390 800,410 M0,480 Q400,470 800,480" stroke="#6EE7B7" stroke-width="1.5" stroke-dasharray="8,8" opacity="0.4"/>
+
+  <!-- Badge in center bottom -->
+  <rect x="40" y="420" width="340" height="50" rx="16" fill="#064E3B" opacity="0.85"/>
+  <text x="60" y="452" fill="#FFFFFF" font-family="sans-serif" font-weight="bold" font-size="18">KEBUN SUNGAI HIJAU</text>
+  <text x="275" y="452" fill="#6EE7B7" font-family="sans-serif" font-weight="bold" font-size="14">PRODUKTIF</text>
+</svg>
